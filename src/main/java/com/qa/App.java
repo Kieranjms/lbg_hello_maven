@@ -17,6 +17,8 @@ public class App
         System.out.println(sayGoodbye());
         System.out.println(sayHelloToSomeone("Kieran"));
         System.out.println(sayHelloToSomeone("MEAForLeaders"));
+        System.out.println(BreakTime());
+
     }
 
     public static String sayHello(){
@@ -25,6 +27,10 @@ public class App
 
     public static String sayGoodbye(){
         return "Goodbye World!";
+    }
+
+    public static String BreakTime(){
+        return "Can't wait to see my pipeline auto trigger";
     }
 
     public static String sayHelloToSomeone(String name){
