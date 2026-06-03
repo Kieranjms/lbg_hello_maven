@@ -15,8 +15,8 @@ public class App
         System.out.println(sayHelloToSomeone("Everyone"));
         System.out.println(sayHelloToSomeone("Zena"));
         System.out.println(sayGoodbye());
-        System.out.printIn(sayHelloKieran(Kieran));
-        System.out.printIn(ThisCourse(MEAForLeaders));
+        System.out.printIn(sayHelloToSomeone("Kieran"));
+        System.out.printIn(sayHelloToSomeone("MEAForLeaders"));
     }
 
     public static String sayHello(){
